@@ -1,0 +1,221 @@
+:root {
+    --fuenteheading: 'PT Sans', sans-serif;
+    --fuenteparrafos: 'Open Sans', sans-serif;
+
+    --primario: #ccac1b;
+    --gris: #e1e1e1;
+    --blanco: #ffffff;
+    --negro: #000;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /**1 rem = 10px**/
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 72.8rem;
+    background-image: url(/IMAGENES&LOGOS/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header {
+    height: 15rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.5rem;
+    border-right: 2px solid;
+    cursor: pointer;
+    /* display: inline-block;
+  animation: tirite 0.5s infinite; */
+}
+
+/* @keyframes tirite {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-3px);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    75% {
+      transform: translateX(3px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  } */
+
+.listas {
+    display: flex;
+    gap: 14rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.lista {
+    font-family: bold;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.lista:hover {
+    color: var(--primario);
+    cursor: pointer;
+}
+
+.lista:active {
+    color: rgb(116, 116, 0);
+}
+
+@media (max-width: 768px) {
+    .header {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      text-align: center;
+    }
+    .listas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        padding-left: 0;
+        gap: 1rem;
+    }
+    .lista {
+      font-size: 2rem;
+    }
+    .titulo {
+      font-size: 3rem;
+      text-align: center;
+    }
+}
+
+.texto {
+    font-size: 1.4rem;
+    background-color: #ccac1b;
+    color: #000;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .texto {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+.contenido {
+    width: 50%;
+    height: 50rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.ejercicio {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.alternativas {
+    width: 80%;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+
+.alternativas li {
+    font-size: 25px;
+    padding: 10px;
+    background-color: var(--primario);
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alternativas li:hover {
+    background-color: #867011;
+}
+
+.tarjeta {
+    position: fixed;
+    top: 45%;
+    right: 0;
+    transform: translateX(100%);
+    background-color: #ff3f3f;
+    padding: 20px;
+    border-radius: 0px 55px 0px 55px;
+-moz-border-radius: 0px 55px 0px 55px;
+-webkit-border-radius: 0px 55px 0px 55px;
+border: 0px solid #000000;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 0 0 10px 5px rgba(240, 240, 240, 1);
+    opacity: 0;
+    pointer-events: auto;
+    width: 50%;
+    height: 35rem;
+    -webkit-box-shadow: 1px 1px 27px 0px rgb(234, 255, 44);
+    -moz-box-shadow: 1px 1px 27px 0px rgb(250, 250, 40);
+    box-shadow: 1px 1px 27px 0px rgb(224, 234, 33);
+    display: grid;
+    grid-template-rows: 1fr 3fr 0.5fr;
+}
+
+.mostrar {
+    transform: translateX(-50%);
+    opacity: 1;
+    pointer-events: auto;
+    box-shadow: 0 0 10px 5px rgba(240, 240, 240, 0);
+}
+
+.losabias {
+    grid-row: 3 / 4;
+    display: flex;
+    gap: 7rem;
+}
+
+.sisabia,
+.nosabia{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.sisabia:hover,
+.nosabia:hover {
+    background-color: var(--gris);
+    color: var(--negro);
+}
+
+.sisabia:active,
+.nosabia:active {
+    background-color: #dbb302;
+    transition: .3s ease;
+}

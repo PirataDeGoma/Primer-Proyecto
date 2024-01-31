@@ -1,0 +1,114 @@
+{
+    "ejercicios": [
+        {"ejercicio": "5 * 8",
+        "alternativas": {
+            "1": "40",
+            "2": "35",
+            "3": "32"
+        },
+        "respuestaCorrecta": "1",
+        "datoCurioso": "Sabias que ........ ",
+        "imagen": "../IMAGENES&LOGOS/home.jpg"
+        },
+
+        {"ejercicio": "2",
+        "alternativas": {
+            "1": "asds",
+            "2": "asd",
+            "3": "asd"
+        },
+        "respuestaCorrecta": "1",
+        "datoCurioso": "Sabias que fsddsf ........"
+        },
+
+        {"ejercicio": "3",
+        "alternativas": {
+            "1": "sdads",
+            "2": "dsaa",
+            "3": "yrer"
+        }, 
+        "respuestaCorrecta": "3",
+        "datoCurioso": "Sabias que ethft........"
+        },
+
+        {"ejercicio": "4",
+        "alternativas": {
+            "1": "rhthgf",
+            "2": "gfhrrrrrr",
+            "3": "erfdg"
+        },
+        "respuestaCorrecta": "1",
+        "datoCurioso": "Sabias que  xvdvc........"
+        },
+
+        {"ejercicio": "5",
+        "alternativas": {
+            "1": "dfgfd",
+            "2": "dfgfdgd",
+            "3": "fgddf"
+        },
+        "respuestaCorrecta": "3",
+        "datoCurioso": "Sabias que sada........"
+        },
+
+        {"ejercicio": "6",
+        "alternativas": {
+            "1": "reret",
+            "2": "iljl",
+            "3": "kjñllkñklñk"
+        },
+        "respuestaCorrecta": "1",
+        "datoCurioso": "Sabias que ewfds ........"
+        },
+
+        {"ejercicio": "7",
+        "alternativas": {
+            "1": "lñkñk,",
+            "2": ",.kkñlk",
+            "3": "kñlñ"
+        },
+        "respuestaCorrecta": "1",
+        "datoCurioso": "Sabias que fds fsdf ........"
+        },
+
+        {"ejercicio": "8",
+        "alternativas": {
+            "1": "klñlkñk",
+            "2": "trete546",
+            "3": "644ty"
+        },
+        "respuestaCorrecta": "2",
+        "datoCurioso": "Sabias que dsff........"
+        },
+
+        {"ejercicio": "9",
+        "alternativas": {
+            "1": "54645",
+            "2": "54y4",
+            "3": "56464"
+        },
+        "respuestaCorrecta": "2",
+        "datoCurioso": "Sabias que dasffa........"
+        },
+
+        {"ejercicio": "10",
+        "alternativas": {
+            "1": "56rt",
+            "2": "5447554",
+            "3": "y554y44t"
+        },
+        "respuestaCorrecta": "3",
+        "datoCurioso": "Sabias que pksapsm........"
+        },
+
+        {"ejercicio": "11",
+        "alternativas": {
+            "1": "5y45",
+            "2": "54ytt",
+            "3": "rtyt"
+        },
+        "respuestaCorrecta": "2",
+        "datoCurioso": "Sabias quersafd a ........"
+        }
+     ]
+}
